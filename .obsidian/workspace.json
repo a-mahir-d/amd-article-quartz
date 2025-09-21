@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e72ae3677559773c",
+        "id": "cd5676a536154496",
         "type": "tabs",
         "children": [
           {
-            "id": "66e84099ad99ae03",
+            "id": "507f35fa3e88c2f4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/CTF Write-Ups/THM/ultra_tech.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "ultra_tech"
+              "title": "New tab"
             }
           }
         ]
@@ -160,6 +156,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -168,41 +165,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "66e84099ad99ae03",
+  "active": "507f35fa3e88c2f4",
   "lastOpenFiles": [
-    "quartz/static/ultra_tech/get_the_key.png",
-    "quartz/static/ultra_tech/run_pwn_kit.png",
-    "quartz/static/ultra_tech/machine.png",
-    "quartz/static/ultra_tech/our_device.png",
-    "quartz/static/ultra_tech/google_search.png",
-    "quartz/static/ultra_tech/perms.png",
-    "quartz/static/ultra_tech/try_ssh_key.png",
-    "quartz/static/ultra_tech/ssh.png",
-    "quartz/static/ultra_tech/crackstation_root.png",
-    "quartz/static/ultra_tech/cat_hashes.png",
-    "quartz/static/ultra_tech/db.png",
+    "content/CTF Write-Ups/THM/ultra_tech.md",
+    "content/CTF Write-Ups/THM/disgruntled.md",
+    "quartz/static/disgruntled/cron_time.png",
+    "quartz/static/disgruntled/cron_expression.png",
+    "quartz/static/disgruntled/os_update_content.png",
+    "quartz/static/disgruntled/modification_date.png",
+    "quartz/static/disgruntled/bomb_renamed.png",
+    "quartz/static/disgruntled/bomb_create.png",
+    "quartz/static/disgruntled/vi.png",
+    "quartz/static/disgruntled/visudo.png",
+    "quartz/static/disgruntled/adduser.png",
+    "quartz/static/disgruntled/command.png",
+    "content/CTF Write-Ups/HTB/strutted.md",
+    "content/CTF Write-Ups/HTB/nocturnal - Kopya.md",
+    "content/CTF Write-Ups/THM/evil_gpt.md",
+    "content/CTF Write-Ups/THM/boiler_ctf.md",
+    "content/CTF Write-Ups/THM/athena.md",
+    "content/CTF Write-Ups/HTB/pentest_notes.md",
+    "content/CTF Write-Ups/HTB/nocturnal.md",
+    "content/CTF Write-Ups/MY CTFs/reverse_amd.md",
+    "content/CTF Write-Ups/HTB/pentest_notes - Kopya.md",
+    "content/CTF Write-Ups/THM/containment.md",
+    "content/CTF Write-Ups/THM/epoch.md",
+    "content/CTF Write-Ups/THM/evil_gpt_v2.md",
+    "content/CTF Write-Ups/THM/ohsint.md",
+    "content/CTF Write-Ups/MY CTFs/jwt_amd.md",
+    "content/CTF Write-Ups/HTB/previous.md",
     "content/index.md",
     "content/Project Documantations/Backend/whispr.md",
     "content/Project Documentations/Backend/whispr.md",
     "content/Project Documentations/Frontend",
     "content/Project Documentations/Backend",
     "content/Project Documentations",
-    "content/CTF Write-Ups/HTB/nocturnal.md",
-    "content/CTF Write-Ups/THM/boiler_ctf.md",
     "quartz/static/boiler_ctf/q11.png.~tmp",
     "quartz/static/boiler_ctf/q9.png.~tmp",
     "quartz/static/boiler_ctf/q8.png.~tmp",
     "quartz/static/boiler_ctf/prep_cat.png.~tmp",
-    "content/CTF Write-Ups/THM/containment.md",
-    "content/CTF Write-Ups/THM/athena.md",
-    "content/CTF Write-Ups/MY CTFs/jwt_amd.md",
-    "content/CTF Write-Ups/MY CTFs/reverse_amd.md",
-    "content/CTF Write-Ups/HTB/pentest_notes.md",
-    "content/CTF Write-Ups/THM/evil_gpt_v2.md",
-    "content/CTF Write-Ups/THM/evil_gpt.md",
-    "content/CTF Write-Ups/THM/epoch.md",
     "public/CTF-Write-Ups/THM/evil_gpt.html",
-    "public/static/evil_gpt",
-    "content/CTF Write-Ups/THM/ohsint.md"
+    "public/static/evil_gpt"
   ]
 }
