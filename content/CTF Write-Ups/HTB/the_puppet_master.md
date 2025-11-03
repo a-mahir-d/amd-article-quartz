@@ -12,7 +12,7 @@ tags:
 This is a writeup for <b>The Puppet Master</b> room.
 
 -----------------------------------------------------------------------------------
-<b>1. Vehicle Identification</b>
+<b>Vehicle Identification</b>
 
 ```text
 We can use search by google by right clicking on the image
