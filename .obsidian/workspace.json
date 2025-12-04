@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/CTF Write-Ups/THM/hammer.md",
+                "file": "content/Articles/how_to_execute_dos_attack_with_burp_suite.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "hammer"
+              "title": "how_to_execute_dos_attack_with_burp_suite"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "879ceb161b6f24f4",
@@ -171,20 +172,26 @@
   },
   "active": "3dc831e44acac44d",
   "lastOpenFiles": [
-    "quartz/static/hammer/key188.png",
-    "quartz/static/hammer/flag2.png",
-    "quartz/static/hammer/flag1.png",
-    "quartz/static/hammer/raw_req.png",
-    "quartz/static/hammer/admin_token.png",
-    "quartz/static/hammer/jwt_encoder.png",
-    "quartz/static/hammer/key188_content.png",
-    "quartz/static/hammer/key_188.png",
-    "quartz/static/hammer/jwt_info.png",
-    "quartz/static/hammer/page_source_jwt.png",
-    "quartz/static/hammer/cat_key.png",
+    "quartz/static/dos_burp_suite/rate_limiter.png",
+    "quartz/static/dos_burp_suite/service_error.png",
+    "content/CTF Write-Ups/HTB/nocturnal.md",
+    "content/Articles/how_to_execute_dos_attack_with_burp_suite.md",
+    "quartz/static/dos_burp_suite/change_send_type.png",
+    "quartz/static/dos_burp_suite/Ekran görüntüsü 2025-12-05 004648.png",
+    "quartz/static/dos_burp_suite/send_type.png",
+    "quartz/static/dos_burp_suite/duplicate_tab.png",
+    "quartz/static/dos_burp_suite/req_to_tab_group.png",
+    "quartz/static/dos_burp_suite/send_to_repeater.png",
+    "quartz/static/dos_burp_suite/start_attack.png",
+    "quartz/static/dos_burp_suite/add_to_list.png",
+    "quartz/static/dos_burp_suite/send_to_intruder.png",
+    "quartz/static/dos_burp_suite",
+    "quartz/static/Yeni klasör",
+    "content/CTF Write-Ups/THM/hammer.md",
+    "content/Articles/DOS Attack With BurpSuite.md",
+    "content/Articles/how_to_execute_dos_with_burp_suite.md",
     "content/CTF Write-Ups/THM/ultra_tech.md",
     "content/CTF Write-Ups/THM/ohsint.md",
-    "content/CTF Write-Ups/THM/hammer.md",
     "content/CTF Write-Ups/THM/athena.md",
     "content/CTF Write-Ups/THM/evil_gpt_v2.md",
     "content/CTF Write-Ups/THM/evil_gpt.md",
@@ -194,7 +201,6 @@
     "content/CTF Write-Ups/HTB/the_puppet_master.md",
     "content/CTF Write-Ups/HTB/the_suspicious_domain.md",
     "quartz/static/the_suspicious_domain",
-    "quartz/static/Yeni klasör",
     "content/CTF Write-Ups/HTB/the_puppet_master - Kopya.md",
     "README.md",
     "node_modules/speech-rule-engine/node_modules/commander/typings/index.d.ts",
@@ -204,7 +210,6 @@
     "node_modules/mdast-util-mdx-jsx/node_modules/vfile-message/lib",
     "node_modules/linebreak/node_modules/base64-js/test/convert.js",
     "node_modules/linebreak/node_modules/base64-js/test/url-safe.js",
-    "node_modules/linebreak/node_modules/base64-js/test",
     "node_modules/is-core-module/README.md",
     "node_modules/is-core-module/CHANGELOG.md",
     "node_modules/https-proxy-agent/README.md",
@@ -212,10 +217,6 @@
     "node_modules/fastq/SECURITY.md",
     "node_modules/fastq/README.md",
     "node_modules/esm/README.md",
-    "node_modules/dequal/readme.md",
-    "node_modules/debug/README.md",
-    "node_modules/d3-shape/README.md",
-    "node_modules/cli-spinner/README.md",
-    "node_modules/camelize/README.md"
+    "node_modules/dequal/readme.md"
   ]
 }
