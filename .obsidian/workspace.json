@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c71f787b6cae8086",
+        "id": "096e416ebf558cbc",
         "type": "tabs",
         "children": [
           {
-            "id": "3dc831e44acac44d",
+            "id": "0ea5441c46591626",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -170,12 +170,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3dc831e44acac44d",
+  "active": "0ea5441c46591626",
   "lastOpenFiles": [
+    "Untitled 1.base",
+    "content/Articles/how_to_execute_dos_attack_with_burp_suite.md",
     "quartz/static/dos_burp_suite/rate_limiter.png",
     "quartz/static/dos_burp_suite/service_error.png",
     "content/CTF Write-Ups/HTB/nocturnal.md",
-    "content/Articles/how_to_execute_dos_attack_with_burp_suite.md",
     "quartz/static/dos_burp_suite/change_send_type.png",
     "quartz/static/dos_burp_suite/Ekran görüntüsü 2025-12-05 004648.png",
     "quartz/static/dos_burp_suite/send_type.png",
@@ -184,7 +185,6 @@
     "quartz/static/dos_burp_suite/send_to_repeater.png",
     "quartz/static/dos_burp_suite/start_attack.png",
     "quartz/static/dos_burp_suite/add_to_list.png",
-    "quartz/static/dos_burp_suite/send_to_intruder.png",
     "quartz/static/dos_burp_suite",
     "quartz/static/Yeni klasör",
     "content/CTF Write-Ups/THM/hammer.md",
@@ -209,7 +209,6 @@
     "node_modules/mdast-util-mdx-jsx/node_modules/vfile-message/lib/index.d.ts",
     "node_modules/mdast-util-mdx-jsx/node_modules/vfile-message/lib",
     "node_modules/linebreak/node_modules/base64-js/test/convert.js",
-    "node_modules/linebreak/node_modules/base64-js/test/url-safe.js",
     "node_modules/is-core-module/README.md",
     "node_modules/is-core-module/CHANGELOG.md",
     "node_modules/https-proxy-agent/README.md",
