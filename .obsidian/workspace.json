@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "096e416ebf558cbc",
+        "id": "d2ae3b81ea0affec",
         "type": "tabs",
         "children": [
           {
-            "id": "0ea5441c46591626",
+            "id": "51b6304be8028fc0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/Articles/how_to_execute_dos_attack_with_burp_suite.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "how_to_execute_dos_attack_with_burp_suite"
+              "title": "New tab"
             }
           }
         ]
@@ -78,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "879ceb161b6f24f4",
@@ -161,32 +156,46 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
     }
   },
-  "active": "0ea5441c46591626",
+  "active": "51b6304be8028fc0",
   "lastOpenFiles": [
-    "Untitled 1.base",
-    "content/Articles/how_to_execute_dos_attack_with_burp_suite.md",
-    "quartz/static/dos_burp_suite/rate_limiter.png",
-    "quartz/static/dos_burp_suite/service_error.png",
-    "content/CTF Write-Ups/HTB/nocturnal.md",
-    "quartz/static/dos_burp_suite/change_send_type.png",
-    "quartz/static/dos_burp_suite/Ekran görüntüsü 2025-12-05 004648.png",
-    "quartz/static/dos_burp_suite/send_type.png",
-    "quartz/static/dos_burp_suite/duplicate_tab.png",
-    "quartz/static/dos_burp_suite/req_to_tab_group.png",
-    "quartz/static/dos_burp_suite/send_to_repeater.png",
-    "quartz/static/dos_burp_suite/start_attack.png",
-    "quartz/static/dos_burp_suite/add_to_list.png",
-    "quartz/static/dos_burp_suite",
+    "content/CTF Write-Ups/SKYDAYS/my_password_vault.md",
+    "content/CTF Write-Ups/SKYDAYS/jwt_amd.md",
+    "content/CTF Write-Ups/SKYDAYS/file_vault.md",
+    "quartz/static/file_vault/flag.png",
+    "quartz/static/file_vault/encryption_helper.png",
+    "quartz/static/file_vault/base64.png",
+    "quartz/static/file_vault/cat_logs.png",
+    "quartz/static/file_vault/ls_r_logs.png",
+    "quartz/static/file_vault/cat_flag.png",
+    "quartz/static/file_vault/ls_r_storage.png",
+    "quartz/static/file_vault/ls_output.png",
+    "quartz/static/file_vault/script_2_1.png",
+    "quartz/static/file_vault/ffuf.png",
+    "content/CTF Write-Ups/SKYDAYS/recon.md",
+    "quartz/static/file_vault",
     "quartz/static/Yeni klasör",
+    "content/CTF Write-Ups/SKYDAYS/recon - Kopya.md",
+    "quartz/static/recon",
+    "content/CTF Write-Ups/SKYDAYS/my_password_vault - Kopya.md",
+    "content/CTF Write-Ups/SKYDAYS/reverse_amd.md",
+    "quartz/static/my_password_vault",
+    "content/CTF Write-Ups/SKYDAYS/jwt_amd - Kopya.md",
+    "content/index.md",
+    "Articles.md",
+    "content/Articles/how_to_execute_dos_attack_with_burp_suite.md",
+    "content/CTF Write-Ups/SKYDAYS",
+    "Untitled 1.base",
+    "content/CTF Write-Ups/HTB/nocturnal.md",
+    "quartz/static/dos_burp_suite",
     "content/CTF Write-Ups/THM/hammer.md",
     "content/Articles/DOS Attack With BurpSuite.md",
     "content/Articles/how_to_execute_dos_with_burp_suite.md",
@@ -201,21 +210,7 @@
     "content/CTF Write-Ups/HTB/the_puppet_master.md",
     "content/CTF Write-Ups/HTB/the_suspicious_domain.md",
     "quartz/static/the_suspicious_domain",
-    "content/CTF Write-Ups/HTB/the_puppet_master - Kopya.md",
-    "README.md",
     "node_modules/speech-rule-engine/node_modules/commander/typings/index.d.ts",
-    "node_modules/speech-rule-engine/node_modules/commander/typings",
-    "node_modules/mdast-util-mdx-jsx/node_modules/vfile-message/lib/index.js",
-    "node_modules/mdast-util-mdx-jsx/node_modules/vfile-message/lib/index.d.ts",
-    "node_modules/mdast-util-mdx-jsx/node_modules/vfile-message/lib",
-    "node_modules/linebreak/node_modules/base64-js/test/convert.js",
-    "node_modules/is-core-module/README.md",
-    "node_modules/is-core-module/CHANGELOG.md",
-    "node_modules/https-proxy-agent/README.md",
-    "node_modules/hast-util-from-dom/readme.md",
-    "node_modules/fastq/SECURITY.md",
-    "node_modules/fastq/README.md",
-    "node_modules/esm/README.md",
-    "node_modules/dequal/readme.md"
+    "node_modules/speech-rule-engine/node_modules/commander/typings"
   ]
 }
