@@ -7,7 +7,7 @@ tags:
 
 #### Author: AMD
 
-![[static/the_puppet_master/the_puppet_master.png]]
+![[static/the_puppet_master/the_puppet_master.webp]]
 
 This is a writeup for <b>The Puppet Master</b> room.
 
@@ -18,7 +18,7 @@ This is a writeup for <b>The Puppet Master</b> room.
 We can use search by google by right clicking on the image
 ```
 
-![[static/the_puppet_master/vehicle_identification.png]]
+![[static/the_puppet_master/vehicle_identification.webp]]
 
 -----------------------------------------------------------------------------------
 <b>Manufacturer Identification | Service History | Country of Origin | Vehicle Capacity</b>
@@ -27,9 +27,9 @@ We can use search by google by right clicking on the image
 We can use wikipedia for this part
 ```
 
-![[static/the_puppet_master/bushmaster.png]]
+![[static/the_puppet_master/bushmaster.webp]]
 
 -----------------------------------------------------------------------------------
 <b>Submit for final flag validation</b>
 
-![[static/the_puppet_master/flag.png]]
+![[static/the_puppet_master/flag.webp]]

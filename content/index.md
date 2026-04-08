@@ -7,7 +7,7 @@ aliases:
   - index
 ---
 <div style="text-align: center;">
-<img src="/static/index/amd.png"/>
+<img src="/static/index/amd.webp"/>
 </div>
 
 This repo contains my project documentations and CTF write-ups.

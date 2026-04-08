@@ -16,7 +16,7 @@ Repository: [SKYDAYS26 My Password Vault]()
 DIE Engine kullanarak .exe dosyasının hangi teknoloji ile yazıldığını bulalım.
 ```
 
-![[static/my_password_vault/die.png]]
+![[static/my_password_vault/die.webp]]
 
 
 -----------------------------------------------------------------------------------
@@ -26,7 +26,7 @@ DIE Engine kullanarak .exe dosyasının hangi teknoloji ile yazıldığını bul
 .NET kullanıldığını öğrendik. DnSpy kullanarak içeriğie bakmayı deneyebiliriz.
 ```
 
-![[static/my_password_vault/dnspy_1.png]]
+![[static/my_password_vault/dnspy_1.webp]]
 
 -----------------------------------------------------------------------------------
 <b>Dosyayı Aç</b>
@@ -40,12 +40,12 @@ dotnet tool install -g sfextract
 sfextract .\amd-my-password-vault.exe --output tmp
 ```
 
-![[static/my_password_vault/sfe.png]]
+![[static/my_password_vault/sfe.webp]]
 
 -----------------------------------------------------------------------------------
 <b>.dll Dosyasını İncele</b>
 
-![[static/my_password_vault/dnspy_2.png]]
+![[static/my_password_vault/dnspy_2.webp]]
 
 -----------------------------------------------------------------------------------
 <b>Şifreyi Çöz</b>
@@ -54,9 +54,9 @@ sfextract .\amd-my-password-vault.exe --output tmp
 Kullanıcıdan beklenen input'un base64 ile şifrelenmiş halinin aioyS2EyUC12M20wZHcqOQ== olduğunu gördük. Şifreyi elde edelim.
 ```
 
-![[static/my_password_vault/cyber_chef.png]]
+![[static/my_password_vault/cyber_chef.webp]]
 
 -----------------------------------------------------------------------------------
 <b>Flag'i Al</b>
 
-![[static/my_password_vault/flag.png]]
+![[static/my_password_vault/flag.webp]]

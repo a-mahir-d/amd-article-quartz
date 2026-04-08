@@ -7,7 +7,7 @@ tags:
 
 #### Author: AMD
 
-![[static/nocturnal/nocturnal.png]]
+![[static/nocturnal/nocturnal.webp]]
 
 This is a writeup for <b>Nocturnal</b> machine.
 
@@ -18,26 +18,26 @@ My target IP: 10.10.11.64
 
 Lets scan out target.
 
-![[static/nocturnal/nmap.png]]
+![[static/nocturnal/nmap.webp]]
 
 -----------------------------------------------------------------------------------
 <b>CURL</b>
 
-![[static/nocturnal/curl.png]]
+![[static/nocturnal/curl.webp]]
 
 Add "10.10.11.64   nocturnal.htb" to /etc/hosts
 
 -----------------------------------------------------------------------------------
 <b>GOBUSTER</b>
 
-![[static/nocturnal/gobuster.png]]
+![[static/nocturnal/gobuster.webp]]
 
 we can not access these urls
 
 -----------------------------------------------------------------------------------
 <b>WEBSITE INSPECTION</b>
 
-![[static/nocturnal/website.png]]
+![[static/nocturnal/website.webp]]
 
 First register then login
 
@@ -50,7 +50,7 @@ See the valid file types
 
 Upload valid file and see the link
 
-![[static/nocturnal/file_link.png]]
+![[static/nocturnal/file_link.webp]]
 
 -----------------------------------------------------------------------------------
 <b>FIND OTHER USERS</b>
@@ -59,35 +59,35 @@ Lets try to find the other users and use the file link to access other users fil
 
 use https://github.com/C0euss/Nocturnal-Username-Enumeration/tree/main to find other usernames
 
-![[static/nocturnal/enumeration.png]]
+![[static/nocturnal/enumeration.webp]]
 
 -----------------------------------------------------------------------------------
 <b>GUESS FILE NAMES</b>
 
-![[static/nocturnal/amandas_file.png]]
+![[static/nocturnal/amandas_file.webp]]
 
 http://nocturnal.htb/view.php?username=amanda&file=privacy.odt
 
 -----------------------------------------------------------------------------------
 <b>VIEW FILE</b>
 
-![[static/nocturnal/amanda_password.png]]
+![[static/nocturnal/amanda_password.webp]]
 
 login with amanda and password
 
 -----------------------------------------------------------------------------------
 <b>VIEW PAGES</b>
 
-![[static/nocturnal/amandas_page.png]]
+![[static/nocturnal/amandas_page.webp]]
 
 go to admin panel
 
-![[static/nocturnal/admin_panel.png]]
+![[static/nocturnal/admin_panel.webp]]
 
 -----------------------------------------------------------------------------------
 <b>VIEW LOGIN.PHP</b>
 
-![[static/nocturnal/login_php.png]]
+![[static/nocturnal/login_php.webp]]
 
 Get db information
 
@@ -98,47 +98,47 @@ Enter "dummy" to create backup password field, catch the request with burpsuite 
 
 url CyberChef to url encode
 
-![[static/nocturnal/cyber_chef.png]]
+![[static/nocturnal/cyber_chef.webp]]
 
 send with repeater
 
-![[static/nocturnal/burp.png]]
+![[static/nocturnal/burp.webp]]
 
 -----------------------------------------------------------------------------------
 <b>SSH</b>
 
 Crack tobias's password using https://crackstation.net/
 
-![[static/nocturnal/crackstation.png]]
+![[static/nocturnal/crackstation.webp]]
 
 connect with ssh
 
-![[static/nocturnal/ssh.png]]
+![[static/nocturnal/ssh.webp]]
 
 -----------------------------------------------------------------------------------
 <b>GET USER FLAG</b>
 
-![[static/nocturnal/user_txt.png]]
+![[static/nocturnal/user_txt.webp]]
 
 -----------------------------------------------------------------------------------
 <b>NETSTAT</b>
 
 Use netstat to use what is working on the machine
 
-![[static/nocturnal/netstat.png]]
+![[static/nocturnal/netstat.webp]]
 
 -----------------------------------------------------------------------------------
 <b>PF</b>
 
 We cannot visit http://127.0.0.1:8080 so lets try port forwarding
 
-![[static/nocturnal/pf1.png]]
+![[static/nocturnal/pf1.webp]]
 
-![[static/nocturnal/pf2.png]]
+![[static/nocturnal/pf2.webp]]
 
 Lets visit http://127.0.0.1:8080
 
-![[static/nocturnal/isp_login.png]]
+![[static/nocturnal/isp_login.webp]]
 
 -----------------------------------------------------------------------------------
 <b>LOGIN</b>
@@ -147,27 +147,27 @@ Lets try to login with tobias's credentials --> doesnt work
 
 Lets try other usernames we found (amanda, admin)  --> admin works
 
-![[static/nocturnal/isp_home.png]]
+![[static/nocturnal/isp_home.webp]]
 
 -----------------------------------------------------------------------------------
 <b>EXEMINE SITE</b>
 
-![[static/nocturnal/isp.png]]
+![[static/nocturnal/isp.webp]]
 
 Lets find vulnerability for this version ISPConfig 
 
-![[static/nocturnal/isp_volnurability_search.png]]
+![[static/nocturnal/isp_volnurability_search.webp]]
 
-![[static/nocturnal/code.png]]
+![[static/nocturnal/code.webp]]
 
 -----------------------------------------------------------------------------------
 <b>EXPLOIT VULNURABILITY</b>
 
 run "nano CVE-2023-46818.py"  --> paste the code  --> save and exit
 
-![[static/nocturnal/run_exploit.png]]
+![[static/nocturnal/run_exploit.webp]]
 
 -----------------------------------------------------------------------------------
 <b>GET ROOT FLAG</b>
 
-![[static/nocturnal/flag.png]]
+![[static/nocturnal/flag.webp]]

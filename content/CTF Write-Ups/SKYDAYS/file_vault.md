@@ -12,11 +12,11 @@ Repository: [SKYDAYS26 File Vault]()
 -----------------------------------------------------------------------------------
 <b>Hesap Oluştur</b>
 
-![[static/file_vault/vip_fail.png]]
+![[static/file_vault/vip_fail.webp]]
 
-![[static/file_vault/register.png]]
+![[static/file_vault/register.webp]]
 
-![[static/file_vault/main_page.png]]
+![[static/file_vault/main_page.webp]]
 
 ```text
 VIP hesap oluşturamadığımız için normal hesap oluşturduk ve giriş yaptık.
@@ -25,21 +25,21 @@ VIP hesap oluşturamadığımız için normal hesap oluşturduk ve giriş yaptı
 -----------------------------------------------------------------------------------
 <b>Dosya Yükle</b>
 
-![[static/file_vault/file_upload_extensions.png]]
+![[static/file_vault/file_upload_extensions.webp]]
 
 
 ```text
-İzin verilen dosya tiplerinin .png ve .pdf olduğunu görebiliriz.
+İzin verilen dosya tiplerinin .webp ve .pdf olduğunu görebiliriz.
 ```
 
 -----------------------------------------------------------------------------------
 <b>Dosya Yükleme İsteiğini Yakala</b>
 
-![[static/file_vault/file_upload_request.png]]
+![[static/file_vault/file_upload_request.webp]]
 
 
 ```text
-Artık isteğin nasıl atıldığını bildiğimize göre .png ve .pdf kontrolü sadece frontend'de mi diye test etmek için script yazabiliriz.
+Artık isteğin nasıl atıldığını bildiğimize göre .webp ve .pdf kontrolü sadece frontend'de mi diye test etmek için script yazabiliriz.
 ```
 
 
@@ -69,7 +69,7 @@ print(f"Status Code: {response.status_code}")
 print(f"Response Body: {response.text}")
 ```
 
-![[static/file_vault/script_1_1.png]]
+![[static/file_vault/script_1_1.webp]]
 
 
 ```text
@@ -80,7 +80,7 @@ Dönen mesajdan yüklediğimiz dosyanın Storage/tmp/ altına kaydedildiğini so
 -----------------------------------------------------------------------------------
 <b>ffuf</b>
 
-![[static/file_vault/ffuf.png]]
+![[static/file_vault/ffuf.webp]]
 
 ```text
 ffuf ile storage yolunu bulduk. Yüklenen dosyalarında zararlı mı kontrolünden önce Storage/tmp yolunda saklandığını biliyoruz. Burden storage/tmp/filename veya storage/tmp?fileName=filename gibi bir yol olabileceğini çıkarabiliriz. Hadi deneyelim.
@@ -127,7 +127,7 @@ if __name__ == "__main__":
     watch_for_file(target_file)
 ```
 
-![[static/file_vault/script_2_1.png]]
+![[static/file_vault/script_2_1.webp]]
 
 ```text
 Yolun storage/tmp/filename olduğunu bulduk
@@ -213,7 +213,7 @@ if __name__ == "__main__":
     watch_for_file(target_file)
 ```
 
-![[static/file_vault/ls_output.png]]
+![[static/file_vault/ls_output.webp]]
 
 ```text
 Çalıştırmayı ve çıktığı görmeyi başardık. Göze batan yollar Storage ve Logs. Storage ile başlayalım.
@@ -223,25 +223,25 @@ if __name__ == "__main__":
 ls -R Storage
 ```
 
-![[static/file_vault/ls_r_storage.png]]
+![[static/file_vault/ls_r_storage.webp]]
 
 ```code
 cat Storage/VIP/admin/flag.txt
 ```
 
-![[static/file_vault/cat_flag.png]]
+![[static/file_vault/cat_flag.webp]]
 
 ```code
 ls -R Logs
 ```
 
-![[static/file_vault/ls_r_logs.png]]
+![[static/file_vault/ls_r_logs.webp]]
 
 ```code
 cat Logs/logs.txt
 ```
 
-![[static/file_vault/cat_logs.png]]
+![[static/file_vault/cat_logs.webp]]
 
 ```text
 Flag'in şifreli haline ve nasıl şifrelendiği ile alakalı bilgiye ulaştık. Şimdi EncryptionHelper.cs içeriğine ulaşmamız lazım. Bu dosyayı FileVault.Server.dll dosyasında reverse engineering yaparak çıkarabiliriz.
@@ -251,7 +251,7 @@ Flag'in şifreli haline ve nasıl şifrelendiği ile alakalı bilgiye ulaştık.
 base64 FileVault.Server.dll
 ```
 
-![[static/file_vault/base64.png]]
+![[static/file_vault/base64.webp]]
 
 -----------------------------------------------------------------------------------
 <b>.dll Dosyasını Bütün Hale Getir</b>
@@ -276,7 +276,7 @@ $b64content = Get-Content "base64.txt" -Raw
 -----------------------------------------------------------------------------------
 <b>DnSpy</b>
 
-![[static/file_vault/encryption_helper.png]]
+![[static/file_vault/encryption_helper.webp]]
 
 ```text
 EncryptionHelper.cs içeriğine ulaştığımıza göre uyumlu decrypt kodunu yazıp flag'e ulaşabiliriz.
@@ -352,4 +352,4 @@ DATA_CIPHERTEXT_B64 değerinede şifreli flag içeriğini verdik.
 -----------------------------------------------------------------------------------
 <b>Flag'i al</b>
 
-![[static/file_vault/flag.png]]
+![[static/file_vault/flag.webp]]

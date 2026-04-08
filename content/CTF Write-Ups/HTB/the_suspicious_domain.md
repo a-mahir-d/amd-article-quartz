@@ -7,7 +7,7 @@ tags:
 
 #### Author: AMD
 
-![[static/the_suspicious_domain/the_suspicious_domain.png]]
+![[static/the_suspicious_domain/the_suspicious_domain.webp]]
 
 This is a writeup for <b>The Suspicious Domain</b> room.
 
@@ -18,7 +18,7 @@ This is a writeup for <b>The Suspicious Domain</b> room.
 We can find the answer at Registrant Contact in WHOIS & Registaration tab
 ```
 
-![[static/the_suspicious_domain/registrant.png]]
+![[static/the_suspicious_domain/registrant.webp]]
 
 -----------------------------------------------------------------------------------
 <b>Question 3,6</b>
@@ -27,7 +27,7 @@ We can find the answer at Registrant Contact in WHOIS & Registaration tab
 We can find the answer at Domain Information in WHOIS & Registaration tab
 ```
 
-![[static/the_suspicious_domain/domain.png]]
+![[static/the_suspicious_domain/domain.webp]]
 
 -----------------------------------------------------------------------------------
 <b>Question 7,8</b>
@@ -36,9 +36,9 @@ We can find the answer at Domain Information in WHOIS & Registaration tab
 We can find the answer in Threat Analysis tab
 ```
 
-![[static/the_suspicious_domain/company.png]]
+![[static/the_suspicious_domain/company.webp]]
 
-![[static/the_suspicious_domain/email.png]]
+![[static/the_suspicious_domain/email.webp]]
 
 -----------------------------------------------------------------------------------
 <b>Question 9</b>
@@ -47,9 +47,9 @@ We can find the answer in Threat Analysis tab
 We can find the answer in DNS Records tab
 ```
 
-![[static/the_suspicious_domain/dns.png]]
+![[static/the_suspicious_domain/dns.webp]]
 
 -----------------------------------------------------------------------------------
 <b>Reverse final flag</b>
 
-![[static/the_suspicious_domain/flag.png]]
+![[static/the_suspicious_domain/flag.webp]]

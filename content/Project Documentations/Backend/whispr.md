@@ -14,7 +14,7 @@ tags:
 ## <span id="tr">🇹🇷 Türkçe</span>
 
 <div style="text-align:center;">
-  <img src="static/whispr/whispr.png" width="150" />
+  <img src="static/whispr/whispr.webp" width="150" />
 </div>
 
 -----------------------------------------------------------------------------------
@@ -57,7 +57,7 @@ Database -->  MSSQL
 ## <span id="en">English</span>
 
 <div style="text-align:center;">
-  <img src="static/whispr/whispr.png" width="150" />
+  <img src="static/whispr/whispr.webp" width="150" />
 </div>
 
 -----------------------------------------------------------------------------------
