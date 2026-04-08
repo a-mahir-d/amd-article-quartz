@@ -1,16 +1,4 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false,
-  "routes": [
-    {
-      "src": "^/(.*)\\.html$",
-      "headers": { "Location": "/$1" },
-      "status": 301
-    },
-    {
-      "src": "^/(.*)$",
-      "dest": "/$1.html",
-      "check": true
-    }
-  ]
+  "trailingSlash": false
 }
