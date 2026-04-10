@@ -7,7 +7,7 @@ tags:
 
 #### Author: AMD
 
-Repository: [SKYDAYS26 Recon]()
+Repository: [SKYDAYS26 Recon](https://github.com/skylab-kulubu/SKYDAYS-CTF-26/tree/main/web/amd-recon-ctf)
 
 -----------------------------------------------------------------------------------
 <b>What is the secret route?</b>

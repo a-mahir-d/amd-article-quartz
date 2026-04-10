@@ -7,7 +7,7 @@ tags:
 
 #### Author: AMD
 
-Repository: [SKYDAYS26 My Password Vault]()
+Repository: [SKYDAYS26 My Password Vault](https://github.com/skylab-kulubu/SKYDAYS-CTF-26/tree/main/reverse/amd-my-password-vault)
 
 -----------------------------------------------------------------------------------
 <b>Teknoloji Belirle</b>
